@@ -1,0 +1,15 @@
+.fruit-list {
+
+}
+
+.fruit-list-item {
+    width: 95%;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fruit-list-item p {
+    margin: none;
+    padding: none;
+}

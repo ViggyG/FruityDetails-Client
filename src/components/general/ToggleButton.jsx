@@ -12,7 +12,7 @@ const ToggleButton = ({label, name, value, onInputChange}) => {
                 value={value}
                 onClick={event => onInputChange(event, name)}
             >
-            {(value === 'asc')? 'v' : '^'}
+            {(value === 1)? 'v' : '^'}
             </button>
         </div>
     )
